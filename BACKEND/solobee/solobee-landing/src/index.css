@@ -1,0 +1,44 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  color-scheme: light;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  font-family: 'Nunito', system-ui, sans-serif;
+  background: #FFF9EC;
+  color: #2C3E50;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+h1, h2, h3, h4 {
+  font-family: 'Baloo 2', system-ui, sans-serif;
+  letter-spacing: -0.01em;
+}
+
+.hero-gradient {
+  background: linear-gradient(180deg, #BCE2FF 0%, #FFE9B5 55%, #FFF9EC 100%);
+}
+
+.btn-primary {
+  @apply inline-flex items-center justify-center gap-2 rounded-full bg-brand-yellow px-7 py-3.5 font-bold text-brand-dark shadow-pop transition-all hover:bg-brand-yellowDeep hover:-translate-y-0.5 active:translate-y-0;
+}
+
+.btn-ghost {
+  @apply inline-flex items-center justify-center gap-2 rounded-full border-2 border-brand-dark/10 bg-white px-6 py-3 font-semibold text-brand-dark transition hover:border-brand-yellow hover:bg-brand-cream;
+}
+
+.section-title {
+  @apply text-3xl sm:text-4xl md:text-5xl font-extrabold text-brand-dark;
+}
+
+.card {
+  @apply rounded-3xl bg-white p-6 shadow-soft ring-1 ring-brand-dark/5 transition hover:-translate-y-1 hover:shadow-pop;
+}

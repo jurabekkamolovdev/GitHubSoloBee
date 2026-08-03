@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?><!--
+   Auto Backup rules for API 30 and below.
+   app_prefs saqlaydi: access_token, refresh_token, user_id.
+-->
+<full-backup-content>
+    <exclude domain="sharedpref" path="app_prefs.xml" />
+</full-backup-content>

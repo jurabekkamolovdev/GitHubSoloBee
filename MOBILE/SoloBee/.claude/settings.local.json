@@ -1,0 +1,8 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(./gradlew :app:processDebugManifest --quiet)",
+      "Bash(echo \"EXIT=$?\")"
+    ]
+  }
+}

@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<network-security-config>
+    <!-- Dev/test uchun HTTP (cleartext) ga ruxsat -->
+    <domain-config cleartextTrafficPermitted="true">
+        <!-- sizning server IP -->
+        <domain includeSubdomains="false">157.180.18.60</domain>
+    </domain-config>
+</network-security-config>
+

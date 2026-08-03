@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Tizim splash uchun alohida ikonka: kvadrat, oq fon, logo markazda (doirada yaxshi ko‘rinadi) -->
+<layer-list xmlns:android="http://schemas.android.com/apk/res/android">
+    <item>
+        <shape android:shape="rectangle">
+            <size android:width="388dp" android:height="388dp" />
+            <solid android:color="@color/white" />
+        </shape>
+    </item>
+    <item
+        android:width="188dp"
+        android:height="188dp"
+        android:gravity="center">
+        <bitmap
+            android:src="@drawable/splash_img"
+            android:gravity="center"
+            android:antialias="true"
+            android:filter="true" />
+    </item>
+</layer-list>
